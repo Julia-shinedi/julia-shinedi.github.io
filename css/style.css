@@ -79,8 +79,6 @@ a {
 	border-bottom: 2px solid #bcbcbc;
 }
 
-
-
 .header-nav {
 
 	padding-top: 60px;
@@ -153,7 +151,6 @@ a {
 .our-prod-title {
 	position: relative;
 	padding: 10px 0;
-	padding-bottom: 50px;
 	color: #22223B;
 }
 
@@ -174,7 +171,7 @@ a {
 	content: " ";
 
 	position: absolute;
-	bottom: 20px;
+	bottom: -15px;
 	left: 545px;
 
 	width: 80px;
@@ -283,7 +280,7 @@ figure.effect-sadie h2 {
 	top: 50%;
 	left: 0;
 	width: 100%;
-	color: #22223B;
+	color: #1985A1;
 	-webkit-transition: -webkit-transform 0.35s, color 0.35s;
 	transition: transform 0.35s, color 0.35s;
 	-webkit-transform: translate3d(0, -50%, 0);
@@ -298,7 +295,7 @@ figure.effect-sadie p {
 
 figure.effect-sadie p {
 	position: absolute;
-	bottom: 0;
+	bottom: 20px;
 	left: 0;
 	width: 100%;
 	opacity: 0;
@@ -317,4 +314,36 @@ figure.effect-sadie:hover p {
 	opacity: 1;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
+}
+
+.footer {
+	background-color: burlywood;
+}
+
+.sub_cont {
+	position: relative;
+
+}
+
+.subscribe {
+	width: 60%;
+	height: 400px;
+	background-color: #C5C3C6;
+	position: absolute;
+	bottom: -45px;
+	left: 20%;
+	border: 2px solid #22223B;
+	border-radius: 3px;
+}
+
+.subscribe h3 {
+	margin: 30px 25%;
+}
+
+.subscribe form {
+	margin: 30px 10%;
+}
+
+.form_email input {
+	margin-left: 30px;
 }
